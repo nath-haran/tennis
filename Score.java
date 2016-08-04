@@ -1,6 +1,12 @@
 
 public class Score {
 	Integer game, set, point;
+	
+	public Score() {
+		game = 0;
+		set = 0;
+		point = 0;
+	}
 
 	public Integer getGame() {
 		return game;
